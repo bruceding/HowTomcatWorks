@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex04" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex05" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex05/pyrmont" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex07/pyrmont" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex08" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex08/pyrmont" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex09" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex10" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex10/pyrmont" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex11" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex13" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex14" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex15" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex16" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/ex20" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/test" />
+      <excludeFolder url="file://$MODULE_DIR$/test/java" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="application" />
+  </component>
+</module>
