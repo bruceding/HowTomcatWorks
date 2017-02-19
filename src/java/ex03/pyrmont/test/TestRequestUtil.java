@@ -18,9 +18,13 @@ public class TestRequestUtil {
 
         try {
             RequestUtil.parseParameters(map, str, "ISO-8859-1");
-            System.out.println(map.get("name"));
+            String[] value = (String[])map.get("msg");
+            System.out.println(value[0]);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
+
+        String decodeStr = RequestUtil.URLDecode(str);
+        System.out.println(decodeStr);
     }
 }

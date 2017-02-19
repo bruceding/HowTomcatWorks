@@ -8,7 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/webroot" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/src/java/ex04" />
       <excludeFolder url="file://$MODULE_DIR$/src/java/ex05" />
       <excludeFolder url="file://$MODULE_DIR$/src/java/ex05/pyrmont" />
       <excludeFolder url="file://$MODULE_DIR$/src/java/ex06" />
