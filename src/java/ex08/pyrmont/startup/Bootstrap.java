@@ -37,8 +37,8 @@ public final class Bootstrap {
     context.addChild(wrapper2);
 
     // context.addServletMapping(pattern, name);
-    context.addServletMapping("/Primitive", "Primitive");
-    context.addServletMapping("/Modern", "Modern");
+    context.addServletMapping("/Primitive", wrapper1.getName());
+    context.addServletMapping("/Modern", wrapper2.getName());
     // add ContextConfig. This listener is important because it configures
     // StandardContext (sets configured to true), otherwise StandardContext
     // won't start
