@@ -1,6 +1,8 @@
 package ex11.pyrmont.startup;
 
 //use StandardWrapper
+import ex11.pyrmont.core.MyWrapperValve;
+import ex11.pyrmont.core.PrimitiveWrapperValve;
 import ex11.pyrmont.core.SimpleContextConfig;
 import org.apache.catalina.Connector;
 import org.apache.catalina.Context;
@@ -27,6 +29,10 @@ public final class Bootstrap {
     wrapper2.setName("Modern");
     wrapper2.setServletClass("ModernServlet");
 
+    // 添加valve
+    ((StandardWrapper)wrapper1).addValve(new PrimitiveWrapperValve());
+
+
     Context context = new StandardContext();
     // StandardContext's start method adds a default mapper
     context.setPath("/myApp");
@@ -38,6 +44,8 @@ public final class Bootstrap {
     context.addChild(wrapper2);
     // for simplicity, we don't add a valve, but you can add
     // valves to context or wrapper just as you did in Chapter 6
+
+    ((StandardContext)context).addValve(new MyWrapperValve());
 
     Loader loader = new WebappLoader();
     context.setLoader(loader);

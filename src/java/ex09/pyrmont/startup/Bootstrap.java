@@ -50,6 +50,7 @@ public final class Bootstrap {
 
     connector.setContainer(context);
 
+    context.setSessionTimeout(1);
     // add a Manager
     Manager manager = new StandardManager();
     context.setManager(manager);
